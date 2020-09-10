@@ -25,7 +25,7 @@ while not player:
             print("You lose!", computer, "smashes", player)
         else:
             print("You win!", player, "cuts", computer)
-    elif player == "quit":
+    elif player.capitalize() == "Quit":
         exit()
     else:
         print("You have a typo, please, check again!")
